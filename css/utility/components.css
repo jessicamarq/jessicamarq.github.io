@@ -1,0 +1,15 @@
+.button {
+  background: linear-gradient(#ffbf00, #f2a50c);
+  color: var(--cor-p5);
+  padding: 16px 32px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  max-width: max-content;
+}
+
+.button:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}

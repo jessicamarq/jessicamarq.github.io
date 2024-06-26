@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+a,
+ul,
+nav {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
