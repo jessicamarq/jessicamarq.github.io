@@ -6,14 +6,18 @@
   padding-bottom: 120px;
 }
 
+.bike-list h2 {
+  padding-bottom: 40px;
+}
+
 .bike-list ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
   list-style: none;
-  padding: 0;
-  margin: 0;
-  padding-top: 40px;
+  padding: auto;
+  margin: auto;
+  overflow-x: auto;
 }
 
 .bike-list a {
@@ -30,6 +34,8 @@
 .bike-list h3 {
   margin: 10px 0;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .bike-list h3::before {
@@ -39,10 +45,13 @@
   background-color: var(--cor-p1);
   display: inline-block;
   margin-right: 8px;
-  vertical-align: middle;
 }
 
-.bike-list ul li:hover::before {
+.bike-list a:hover h3::before {
   width: 24px;
-  transition-duration: 0.3s;
+  transition: 0.3s;
+}
+
+.bike-list li span {
+  padding-left: 20px;
 }
