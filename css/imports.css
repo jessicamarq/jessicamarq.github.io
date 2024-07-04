@@ -11,3 +11,6 @@
 
 /* bikes */
 @import "./home/bikes.css";
+
+/*tecnologia*/
+@import "./home/tecnologia.css";
