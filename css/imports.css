@@ -3,14 +3,10 @@
 @import "./utility/font.css";
 @import "./utility/components.css";
 
-/* header  */
+/* home  */
 @import "./global/header.css";
-
-/* introducao */
 @import "./home/intro.css";
-
-/* bikes */
 @import "./home/bikes.css";
-
-/*tecnologia*/
 @import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
