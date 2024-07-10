@@ -55,3 +55,12 @@
 .bike-list li span {
   padding-left: 20px;
 }
+
+@media (max-width: 800px) {
+  .bike-list {
+    padding-bottom: 60px;
+  }
+  .bike-list ul {
+    gap: 20px;
+  }
+}

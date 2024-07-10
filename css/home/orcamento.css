@@ -88,3 +88,9 @@
 .orcamento-ouro a {
   grid-column: 1;
 }
+
+@media (max-width: 800px) {
+  .orcamento-tipos {
+    grid-template-columns: 1fr;
+  }
+}

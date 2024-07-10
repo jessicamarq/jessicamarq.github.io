@@ -11,3 +11,7 @@
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 @import "./home/orcamento.css";
+@import "./global/footer.css";
+
+/* termos */
+@import "./termos/termos.css";
