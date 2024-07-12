@@ -2,6 +2,7 @@
 @import "./utility/color.css";
 @import "./utility/font.css";
 @import "./utility/components.css";
+@import "./utility/formulario.css";
 
 /* home  */
 @import "./global/header.css";
@@ -27,4 +28,6 @@
 @import "./seguros/perguntas.css";
 @import "./seguros/vantagens.css";
 
-/* tipos de bicicleta */
+/* contato */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
